@@ -22,9 +22,28 @@ React only focuses on the user interface (UI) logic. Everything else—like rout
 
 With React, I decide whether to add tools like React Router, Redux, TailwindCSS, Axios, etc.
 
+| Aspect |Java / Spring (Eclipse) |React (Node.js Ecosystem)|
+|----------|----------|----------|
+|Project Management|Maven / Gradle (structured)|npm / yarn (modular, dynamic)|
+|Build Tool|Maven lifecycle|Vite / Webpack / Rollup|
+|Workflow|Visual IDE (buttons & menus)|CLI + lightweight editors (e.g., VS Code)|
+|Project Start|Click "Run"|npm run dev|
+|Configuration|	pom.xml|package.json|
 
+### What is npm and Why Use the CLI
+**npm = Node Package Manager**
 
+It’s similar to Java's Maven or Gradle.
 
+use it to:
+* Install third-party packages (like React or Vite)
+
+* Manage dependencies
+
+* Run project scripts (dev server, build, deploy)
+
+The npm design philosophy:  
+**CLI-first, GUI-optional**—so it works across all systems and is easily automatable in CI/CD pipelines.
 
 
 
