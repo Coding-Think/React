@@ -45,16 +45,8 @@ use it to:
 The npm design philosophy:  
 **CLI-first, GUI-optional**—so it works across all systems and is easily automatable in CI/CD pipelines.
 
-
-
-
-
-
-
-
-
-
-
+### VScode
+The answer is download vscode.
 
 
 A Java Developer’s Perspective on Front-End Workflow
