@@ -5,7 +5,7 @@ React is a JavaScript library for building frontend user interfaces, especially 
 ## Sometimes things happen on their own
 Don’t stress about having the perfect environment—bad setups and messy code are part of the process.
 Just go for it: write, download, build.
-I used to tell people not to download anything not familiar with, but looking back, that was a big mistake caused by a misunderstanding.
+I used to tell people do not download anything not familiar with, but looking back, that was a big mistake caused by a misunderstanding.
 
 **How to download react and connect vite and Http**  
 https://high-career.jp/2022/01/04/vscode-react-dev/  
