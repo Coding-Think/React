@@ -12,7 +12,8 @@ https://high-career.jp/2022/01/04/vscode-react-dev/
 https://zenn.dev/longbridge/articles/93f63e0423785b
 
 **Tips**  
-If you're downloading something using ***cmd*** and want a specific version, simply add the version number after the package name.
+1.If you're downloading something using ***cmd*** and want a specific version, simply add the version number after the package name.
+2.After creating a project, dependencies are typically installed locally (inside the project folder). Be sure to verify them in the node_modules directory or check the package.json file for accuracy.
 
 ## Why Isn't React Development as Visual as Eclipse
 
