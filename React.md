@@ -7,9 +7,10 @@ Don’t stress about having the perfect environment—bad setups and messy code 
 Just go for it: write, download, build.
 I used to tell people not to download anything, but looking back, that was a big mistake caused by a misunderstanding.
 
-**How to download react and connect vite**  
+**How to download react and connect vite and Http**  
 https://high-career.jp/2022/01/04/vscode-react-dev/  
-https://zenn.dev/longbridge/articles/93f63e0423785b
+https://zenn.dev/longbridge/articles/93f63e0423785b  
+https://zenn.dev/longbridge/articles/82194eb0eaf710
 
 **Tips**  
 1.If you're downloading something using ***cmd*** and want a specific version, simply add the version number after the package name.  
