@@ -59,6 +59,18 @@ With React, I decide whether to add tools like React Router, Redux, TailwindCSS,
 
 * VSCode: Your “kitchen console” equipped with knives, cutting boards, an artillery control panel, recipes, and timers (plugins, debugging tools, smart suggestions, etc.) that make your cooking (coding) smoother and more efficient.
 
+### The different between VScode ternimal(PowerShell) and CMD  
+* PowerShell is a more powerful command-line interface (CLI) compared to the traditional CMD (Command Prompt). It supports advanced scripting, automation, and system management tasks.  
+
+* In modern Windows environments, PowerShell is the default terminal in many tools—including Visual Studio Code (VSCode)—because of its enhanced capabilities and active development by Microsoft.  
+
+* However, PowerShell enforces a security policy called Execution Policy. This limits the execution of untrusted or unsigned scripts to protect users from running potentially harmful code.
+
+* In contrast, CMD does not enforce script execution policies, making it more permissive but less secure. This is why many beginners switch to CMD when encountering PowerShell restrictions.
+
+* Can switch terminal types in VSCode from the dropdown menu in the terminal panel and choose CMD, Git Bash, or PowerShell depending on your needs.
+
+
 
 
 A Java Developer’s Perspective on Front-End Workflow
