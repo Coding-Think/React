@@ -41,15 +41,15 @@ With React, I decide whether to add tools like React Router, Redux, TailwindCSS,
 
 * Node.js: Like the “stove” in your kitchen — without it, you can’t cook (run) your raw ingredients (JavaScript code).
 
-* npm: Your “spice cabinet,” where you keep all kinds of spices (third-party libraries and packages) to add flavor to your dishes (projects).
+* Npm: Your “spice cabinet,” where you keep all kinds of spices (third-party libraries and packages) to add flavor to your dishes (projects).
 
 * React: The “signature dish” you want to cook — a popular recipe for building beautiful and interactive user interfaces.
 
-* create-react-app (CRA): Like a “semi-prepared meal kit” that provides all the ingredients and tools so you can start cooking your signature dish right away. It uses the “traditional stove” (Webpack) and defaults to burner number 3000 (local port).
+* Create-react-app (CRA): Like a “semi-prepared meal kit” that provides all the ingredients and tools so you can start cooking your signature dish right away. It uses the “traditional stove” (Webpack) and defaults to burner number 3000 (local port).
 
 * Vite: A new-generation “smart induction cooker,” faster and more efficient, with its own meal kits to help you cook React dishes quicker. It defaults to burner number 5173.
 
-* create: The action of “calling ‘start cooking!’” — telling the kitchen to begin cooking with a certain meal kit, such as npm create vite or npx create-react-app.
+* Create: The action of “calling ‘start cooking!’” — telling the kitchen to begin cooking with a certain meal kit, such as npm create vite or npx create-react-app.
 
 * VSCode: Your “kitchen console” equipped with knives, cutting boards, an artillery control panel, recipes, and timers (plugins, debugging tools, smart suggestions, etc.) that make your cooking (coding) smoother and more efficient.
 
