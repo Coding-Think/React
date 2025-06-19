@@ -70,7 +70,8 @@ With React, I decide whether to add tools like React Router, Redux, TailwindCSS,
 
 * Can switch terminal types in VSCode from the dropdown menu in the terminal panel and choose CMD, Git Bash, or PowerShell depending on your needs.
 
-
+### Developer Tip
+Most beginners (myself included) start off running scripts without knowing if they are truly safe—simply because we need things to work first. Later, as we gain experience, we come back and learn about execution policies, script signing, and security best practices. It's part of the growth process—funny, but real.
 
 
 A Java Developer’s Perspective on Front-End Workflow
