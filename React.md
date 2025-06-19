@@ -45,7 +45,7 @@ With React, I decide whether to add tools like React Router, Redux, TailwindCSS,
 
 * React: The “signature dish” you want to cook — a popular recipe for building beautiful and interactive user interfaces.
 
-* Create-react-app (CRA): Like a “semi-prepared meal kit” that provides all the ingredients and tools so you can start cooking your signature dish right away. It uses the “traditional stove” (Webpack) and defaults to burner number 3000 (local port).
+* Create-react-app (CRA): Like a “semi-prepared meal kit” that provides all the ingredients and tools so you can start cooking your signature dish right away. It uses the “traditional stove” (Webpack) and defaults to burner number 3000 (local port).**It's been phased out by time.**
 
 * Vite: A new-generation “smart induction cooker,” faster and more efficient, with its own meal kits to help you cook React dishes quicker. It defaults to burner number 5173.
 
