@@ -6,8 +6,11 @@ React is a JavaScript library for building frontend user interfaces, especially 
 Don’t stress about having the perfect environment—bad setups and messy code are part of the process.
 Just go for it: write, download, build.
 I used to tell people not to download anything, but looking back, that was a big mistake caused by a misunderstanding.
- 
-**Tips**
+
+**How to download react.**  
+https://high-career.jp/2022/01/04/vscode-react-dev/
+
+**Tips**  
 If you're downloading something using ***cmd*** and want a specific version, simply add the version number after the package name.
 
 ## Why Isn't React Development as Visual as Eclipse
