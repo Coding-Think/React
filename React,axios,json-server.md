@@ -40,7 +40,7 @@
     * Test your front-end without needing a real backend
     * Build and debug early without waiting for backend development
 
-
+A Java Developer’s Perspective on Front-End Workflow Author: A Java-turned-frontend beginner × ChatGPT Date: June 2025
 
 
 
