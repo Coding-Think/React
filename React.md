@@ -10,7 +10,7 @@ I used to tell people do not download anything not familiar with, but looking ba
 **How to download react and connect vite and Http**  
 https://high-career.jp/2022/01/04/vscode-react-dev/  
 https://zenn.dev/longbridge/articles/93f63e0423785b  
-https://zenn.dev/longbridge/articles/82194eb0eaf710
+https://zenn.dev/longbridge/articles/82194eb0eaf710    **"I don't get it — the address（json-server） just doesn't change like the tutorial says it should.**
 
 **Tips**  
 1.If you're downloading something using ***cmd*** and want a specific version, simply add the version number after the package name.  
