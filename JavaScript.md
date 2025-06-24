@@ -52,8 +52,52 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 
-6. 
+6. ## Functions
+```JavaScript
+function add(a, b) {
+  return a + b;
+}
 
- 
+const result = add(3, 4);
+console.log(result); // 7
+```
+7. ## Objects and Arrow Functions
+**Objects**
+```JavaScript
+const person ={
+  name:"Jack",
+  age:28,
+  address:{
+      city:"Tokyo",
+      phoneName:"000-0000-0000"
+  },
+  hobbies:["Reading","Traveling"]
+};
 
+console.log(person.name); // Jack
+console.log(person["age"]); // 28
+console.log(person.address.city); // Tokyo
+console.log(person.hobbies[0]); // Reading
+```
+**Arrow Functions**
+```JavaScript
+const name = "Tiger"; // Standalone Variable
+const obj = {
+  name: "Cat",// Variable
+  sayHi: function () {
+    const inner = () => {
+      console.log("this.name:", this.name);
+      console.log("name:", name);
+    };
+    inner();
+  },
+};
+obj.sayHi();
+// this.name: Cat 
+// name: Tiger  
+```
+**`this.name` refers to the property `name` on the object that `this` points to (in this case, `obj`), so it outputs "Cat".  
+`name` without `this` refers to a variable in the outer (higher) scope, which here is the global variable `name = "Tiger"`.  
+If the object does not have a `name` property, then `this.name` will be `undefined`, because `this` points to the object but that property doesn't exist.  
+Note that standalone variables like `name` are not related to the object's properties and are resolved based on scope, not `this`.**
 
