@@ -26,7 +26,7 @@ const undefinedValue = undefined; // undefined
 | /         | division     | 10/5             | 2      |
 | %         | remainder    | 10%5             | 0      |
 | ++        | increment    | let x = 10; x++; | 11     |
-| --        | decrement    | let x = 10; x++; | 9      |
+| --        | decrement    | let x = 10; x--; | 9      |
 | &&        | AND          | true && false    | false  |
 | \|\|      | OR           | true \|\| false  | true   |
 | !         | NOT          | !true            | false  |
