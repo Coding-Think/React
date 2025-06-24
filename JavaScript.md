@@ -18,12 +18,42 @@ const undefinedValue = undefined; // undefined
 
 3. ## operator
 
-| operator  | 説明          | 例               | 結果 |
-|-----------|--------------|------------------|------|
-| +         | add          | 10+5             | 15   |
-| -         | subtraction  | 10-5             |  5   |
-| *         |multiplication| 10*5             | 50   |
-| /         | division     | 10/5             | 2    |
-| %         | remainder    | 10%5             | 0    |
-| ++        | increment    | let x = 10; x++; | 11   |
-| --        | decrement    | let x = 10; x++; | 9    |
+| operator  | descript     | example          | result |
+|-----------|--------------|------------------|--------|
+| +         | add          | 10+5             | 15     |
+| -         | subtraction  | 10-5             | 5      |
+| *         |multiplication| 10*5             | 50     |
+| /         | division     | 10/5             | 2      |
+| %         | remainder    | 10%5             | 0      |
+| ++        | increment    | let x = 10; x++; | 11     |
+| --        | decrement    | let x = 10; x++; | 9      |
+| &&        | AND          | true && false    | false  |
+| \|\|      | OR           | true \|\| false  | true   |
+| !         | NOT          | !true            | false  |
+
+4. ## if
+```JavaScript
+const score = 85;
+if (score >= 90) {
+  console.log("Excellent");
+} else if (score >= 80) {
+  console.log("Good");
+} else if (score >= 70) {
+  console.log("OK");
+} else {
+  console.log("Substand");
+}//result:Good
+```
+
+5. ## For
+```JavaScript
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+```
+
+6. 
+
+ 
+
+
