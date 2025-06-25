@@ -139,6 +139,6 @@ list.appendChild(newItem);
 ```JavaScript
 const button = document.getElementById("btn");
 button.addEventListener("click", () => {
-  console.log("clicked!");
+   title.textContent = "You clicked the button!";
 });
 ```
