@@ -101,3 +101,44 @@ obj.sayHi();
 If the object does not have a `name` property, then `this.name` will be `undefined`, because `this` points to the object but that property doesn't exist.  
 Note that standalone variables like `name` are not related to the object's properties and are resolved based on scope, not `this`.**
 
+8. ## DOM
+**Select and Print**
+```HTML
+<div id="app">
+  <h1>Title</h1>
+  <p class="message">morning！</p>
+</div>
+```
+```JavaScript
+//selection componment
+const title = document.getElementById("app").querySelector("h1");
+const message = document.querySelector(".message");
+//print content
+console.log(title.textContent); // Title
+console.log(message.textContent); // morning！
+```
+**Add**
+```HTML
+<ul id="list">
+  <li>item1</li>
+  <li>item2</li>
+</ul>
+```
+```JavaScript
+const list = document.getElementById("list");
+
+const newItem = document.createElement("li");
+newItem.textContent = "newItem";
+
+list.appendChild(newItem);
+```
+**Event Listener**
+```HTML
+<button id="btn">click</button>
+```
+```JavaScript
+const button = document.getElementById("btn");
+button.addEventListener("click", () => {
+  console.log("clicked!");
+});
+```
