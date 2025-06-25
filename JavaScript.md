@@ -99,7 +99,18 @@ obj.sayHi();
 **`this.name` refers to the property `name` on the object that `this` points to (in this case, `obj`), so it outputs "Cat".  
 `name` without `this` refers to a variable in the outer (higher) scope, which here is the global variable `name = "Tiger"`.  
 If the object does not have a `name` property, then `this.name` will be `undefined`, because `this` points to the object but that property doesn't exist.  
-Note that standalone variables like `name` are not related to the object's properties and are resolved based on scope, not `this`.**
+Note that standalone variables like `name` are not related to the object's properties and are resolved based on scope, not `this`.**  
+**PS**
+* Arrow functions are anonymous functions by nature  
+* Arrow functions themselves do not have names.When you assign an arrow function to a variable, the variable name acts as the function’s identifier.  
+* Parentheses around parameters depend on the number of parameters  
+  No parameters: You must use empty parentheses ().  
+* Exactly one parameter: Parentheses can be omitted.  
+  x => x * 2;  
+* More than one parameter: Parentheses are required.
+  (x, y) => x + y;
+
+
 
 8. ## DOM
 **Select and Print**
