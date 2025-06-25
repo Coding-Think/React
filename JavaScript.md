@@ -111,8 +111,6 @@ Note that standalone variables like `name` are not related to the object's prope
 * More than one parameter: Parentheses are required.
   (x, y) => x + y;
 
-
-
 8. ## DOM
 **Select and Print**
 ```HTML
@@ -154,3 +152,53 @@ button.addEventListener("click", () => {
    title.textContent = "You clicked the button!";
 });
 ```
+
+9. ## Asynchronous Processing
+**call back**
+```JavaScript
+function fetchData(callback) {
+  setTimeout(() => {
+    const data = "データ";
+    callback(data);
+  }, 1000);
+}
+
+fetchData((data) => {
+  console.log(data); // データ
+});
+```
+Call fetchData(callback)
+      ↓
+Wait for 1 second
+      ↓
+data = "データ"
+      ↓
+Execute callback(data)
+      ↓
+Your arrow function receives "データ"
+      ↓
+console.log("データ")
+**Summary:**
+Java requires functions to have clearly defined parameters upfront.
+JavaScript treats functions as values you can store, pass around, and call later with arguments. This flexibility lets JavaScript pass parameters only when the function runs.
+
+**Promise**
+```JavaScript
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const data = "データ";
+      resolve(data);
+    }, 1000);
+  });
+}
+fetchData()
+  .then((data) => {
+    console.log(data); // データ
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+```
+**Summary:**
+Promise:Wraps an asynchronous operation into an object. Success (resolve) and failure (reject) are handled externally with .then() and .catch(). This provides a cleaner, more manageable, and centralized way to handle async flow and errors.
