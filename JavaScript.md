@@ -100,6 +100,7 @@ obj.sayHi();
 `name` without `this` refers to a variable in the outer (higher) scope, which here is the global variable `name = "Tiger"`.  
 If the object does not have a `name` property, then `this.name` will be `undefined`, because `this` points to the object but that property doesn't exist.  
 Note that standalone variables like `name` are not related to the object's properties and are resolved based on scope, not `this`.**  
+
 **PS**
 * Arrow functions are anonymous functions by nature  
 * Arrow functions themselves do not have names.When you assign an arrow function to a variable, the variable name acts as the function’s identifier.  
