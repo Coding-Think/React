@@ -202,3 +202,6 @@ fetchData()
 ```
 **Summary:**
 Promise:Wraps an asynchronous operation into an object. Success (resolve) and failure (reject) are handled externally with .then() and .catch(). This provides a cleaner, more manageable, and centralized way to handle async flow and errors.
+
+**Async/Await**
+
